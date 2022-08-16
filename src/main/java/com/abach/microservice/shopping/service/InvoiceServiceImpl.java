@@ -60,7 +60,7 @@ public class InvoiceServiceImpl implements InvoiceService {
     }
 
     @Override
-    public Invoice getInvoice(Long id) {
+    public Invoice getInvoiceById(Long id) {
         return this.invoiceRepository.getReferenceById(id);
     }
 }
